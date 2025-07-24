@@ -1,0 +1,64 @@
+Domain:Ecommerce 
+
+Use Case Name :Blinkit Sales Dashboard
+
+Business Question
+How can Blinkit optimize sales performance and customer satisfaction across outlet types, product categories, and regions?
+
+Objective
+To develop a Power BI dashboard that provides a detailed view of sales distribution, 
+outlet ratings, and product trends — helping stakeholders identify opportunities to scale and improve performance.
+
+Expected Output
+  1.Total and average sales insights
+  2.Product type and fat content sales breakdown  
+  3.Outlet size and tier-based performance  
+  4.Sales trend over years  
+  5.Customer ratings by outlet size  
+  6.Interactive filters: location, outlet size, item type
+  
+Data Preparation Steps
+  1.Loaded the dataset from source (Excel/CSV/database)  
+  2.Navigated to the correct sheet or table  
+  3.Promoted the first row to headers  
+  4.Automatically changed data types (e.g., text, number, date)  
+  5.Replaced many values to standardize entries across columns  
+  6.Ensured consistency in key fields such as product type, fat content, and outlet tier
+
+Key Insights from the Dashboard
+ Overall Sales Overview
+  1.Total Sales: $1M
+  2.Average Sales per Item: $141
+  3.Total Items Sold: 9K
+  4.Average Customer Rating: 4
+ 
+Fat Content Impact
+  1.Regular fat content contributes $776K to total sales, significantly more than low fat ($425K).
+  2.Across outlet tiers, Tier 3 contributes the highest sales in both fat content categories.
+ 
+Outlet Tier Sales
+  1.Tier 3 outlets contribute the highest total sales ($472K), followed by Tier 2 ($393K) and Tier 1 ($336K).
+  2.This suggests Tier 3 markets are more active or have better product penetration.
+
+Sales Trend (Outlet Establishment Over Time)
+  1.Sales peaked in 2019 at $205K, but have declined slightly since.
+  2.There's a growth trend from 2010 to 2019, followed by slight fluctuation post-2020.
+
+Top Item Types by Sales
+  1.Fruits, Snacks, and Household items are the top-selling categories, with over $130K each.
+  2.Lower performing categories include Seafood ($9K) and Breads ($35K).
+ 
+Outlet Size Analysis
+  1.Medium-sized outlets generate the highest sales ($445K), followed by High ($249K) and Small ($50K).
+  2.However, Medium outlets receive the most ratings (14K), suggesting higher customer engagement.
+
+Ratings by Outlet Size
+  1.Medium outlets have the highest ratings (14K), indicating better customer experiences.
+  2.High outlets, despite higher capacity, receive fewer ratings (7K), possibly suggesting lower customer interaction or satisfaction.
+
+Potential Actionable Recommendations
+  1.Expand Tier 3 presence or invest more in those regions, as they generate the most revenue.
+  2.Focus on Regular Fat items since they drive higher sales.
+  3.Promote lower-performing item categories like Breads, Seafood, and Hard Drinks via offers or bundling.
+  4.Investigate High outlet sizes – they generate fewer ratings, which could reflect lower customer satisfaction or traffic.
+  5.Maintain and scale operations in Medium outlets, as they balance both high sales and customer satisfaction.
