@@ -11,12 +11,10 @@ Each folder represents a domain-specific project (e.g. Sales, Logistics, HR) and
   2. Uber Logistics Trip Analysis
   3. Ecommerce (Blinkit) Performance
   4. HR Performance Dashboard
-  5. Education Hackathon Dashboard (Coming Soon)
 
 **Folder Structure**
 Each use-case folder includes:
  1. powerbi-dashboard.pbix
- 2. problem_statement.md
- 3. data_used.md
- 4. insights_summary.md
- 5. dashboard_screenshot.png (optional)
+ 2. Sourcefile
+ 3. DescriptiveInfo.txt
+ 4. Dashboard_screenshot.png (optional)
