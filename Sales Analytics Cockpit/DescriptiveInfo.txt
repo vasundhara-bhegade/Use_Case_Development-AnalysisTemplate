@@ -1,0 +1,36 @@
+Domain: Sales
+
+Business Question:
+ How can we track and improve sales pipeline performance, monitor opportunity stages, and identify bottlenecks across quarters.
+
+Objective:
+ To create a unified view of the current and upcoming sales pipeline stages, opportunity health, and key performance metrics like win rate, 
+ deal age, and forecast classification.
+
+Expected Output:
+ An interactive Power BI dashboard (Sales Cockpit) with visual KPIs on deal value, opportunity stage progression, pipeline health, win rate.
+
+Key Insights from Dashboard
+  1.$810M in deals have been won, with an impressive 56% win rate.
+  2.The current pipeline is valued at $245M, with Stage 1–2 deals making up the majority ($143M).
+  3.191 opportunities lack activities, potentially at risk.
+  4.104 opportunities are expired; need cleanup or follow-up.
+  5.Stage 3–5 conversion is critical — large drop-off from Stage 4 to 5 ($55M to $17M).
+  6.High-value deals are stuck in early stages, e.g., Stage 1 ($79M).
+  7.Stagnant deals: 158 opportunities with no movement.
+  8.Average sales cycle is 122 days, with an average deal size of $1.1M.
+
+Data Used for Sales Cockpit Dashboard
+
+Opportunities: Opportunity ID, Stage, Amount, Age, SFDC link, Forecast category
+Accounts: Customer details linked to opportunities
+Activities: Last activity dates per opportunity
+Sales Forecast: Commit / Upside / Pipeline classification
+MEDDIC Metrics:Qualification scores per deal (scale 1–6)
+Won / Lost Status: Final deal outcome and deal values
+
+Metrics Created:
+  1.Win Rate
+  2.Average Deal Size
+  3.Average Sales Cycle
+  4.Opportunity Flags: Without MEDDIC, Without Amount, Without Activity, Expired
