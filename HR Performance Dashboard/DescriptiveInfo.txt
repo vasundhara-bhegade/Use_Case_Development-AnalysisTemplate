@@ -1,0 +1,54 @@
+Domain: Human Resources
+Use Case Name: HR Analytics Dashboard
+
+Business Question
+How can HR departments identify trends in employee attrition and understand the factors contributing to workforce turnover?
+
+Objective
+To develop an interactive HR Analytics Dashboard using Power BI that visualizes employee attrition, salary trends, job satisfaction,
+and tenure distribution — providing data-driven insights for better retention strategies.
+
+Expected Output
+• Attrition trends across age, gender, education, and job role
+• Salary-wise and tenure-wise attrition breakdown
+• Insights into employee satisfaction and role-specific attrition
+• Key filters: department, job role, age group
+
+Data Preparation Steps
+• Cleaned missing values and ensured consistency
+• Categorized salary into slabs
+• Converted attrition values to numerical format for analysis
+• Calculated attrition rate, average age, average tenure, and salary
+• Created summary and grouping for job roles, satisfaction levels, and education fields
+
+Key Insights from the Dashboard
+Overall Metrics
+• Total Employees: 1470
+• Attrition Count: 237 (13.9%)
+• Average Age: 37 years | Average Salary: ₹6.5K | Average Tenure: 7 years
+
+Demographic Insights
+• Male attrition (150) is higher than female attrition (87)
+• Most attrition occurs in age group 26–35 (116 employees)
+
+Department & Role-Based Attrition
+• Laboratory Technician has the highest attrition count (62)
+• Sales Executive and Research Scientist also show significant attrition
+
+Education & Salary Impact
+• Life Sciences and Medical backgrounds represent 65% of attrition
+• Most attrition comes from the ₹0–5K salary slab (163 employees)
+
+Tenure-Based Insights
+• Highest attrition is observed at around 2 years of service (59 employees)
+• Employee attrition declines with tenure but spikes again around 10 years
+
+Job Satisfaction Overview
+• Satisfaction level 3 shows highest number of attritions (73)
+• Sales and research roles show mixed satisfaction scores
+
+Potential Actionable Recommendations
+• Focus on retaining employees aged 26–35 through career growth programs
+• Revise salary structures for lower slabs to reduce high attrition
+• Evaluate job satisfaction programs in high-attrition roles
+• Introduce mentorship or development programs for employees in early tenure
