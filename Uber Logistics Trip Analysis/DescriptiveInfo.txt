@@ -1,0 +1,46 @@
+Domain: Logistics
+
+Use Case Name: Uber Trip Analysis
+
+Business Question
+  How can Uber evaluate trip patterns, booking behaviors, and customer preferences to improve operational efficiency and strategic planning?
+
+Objective
+  To develop a Power BI dashboard that offers a comprehensive overview of booking trends, trip distances, vehicle performance, and payment behaviors — enabling better decisions for user satisfaction and logistics optimization.
+
+Expected Output
+  • Total and average booking insights
+  • Trip volume distribution by day, time, and vehicle type
+  • Preferred pickup and drop-off points
+  • Location-wise and vehicle-type performance
+  • Interactive filters: date, city, vehicle type
+
+Data Preparation Steps
+  • Loaded the dataset from the source (Excel/CSV)
+  • Parsed pickup date and time for time-based grouping
+  • Converted values to appropriate data types (e.g., numeric, datetime)
+  • Created new fields like trip time, average fare, and day/night tag
+  • Aggregated metrics by vehicle, location, and payment type
+
+Key Insights from the Dashboard
+Overall Trip Overview
+  • Total Bookings: 103.7K
+  • Total Booking Value: $1.6M
+  • Average Booking Value: $15
+  • Total Trip Distance: 349K miles
+  • Average Trip Time: 16 minutes
+Trip Time & Day Trends
+  • Night trips account for 65.28% of bookings, showing user preference for late travel.
+  • Steady trip trends across 30 days with spikes on weekends.
+Payment & Vehicle Analysis
+  • Uber Pay is the most used payment method (67%).
+  • UberX is the most popular vehicle with 38.7K bookings and highest total value of $583,880.
+Location Analysis
+  • Most Frequent Pickup: Penn Station/Madison Sq West
+  • Most Frequent Drop-off: Upper East Side North
+  • Farthest Trip: 144.1 miles (Lower East Side to Crown Heights North)
+Potential Actionable Recommendations
+  • Focus on optimizing night-time driver availability based on higher demand.
+  • Invest in expanding UberX fleet due to high booking preference.
+  • Introduce promotions at popular pickup/drop-off points.
+  • Investigate vehicle types with lower utilization like Uber Green.
